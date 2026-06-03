@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+bin/
+include/
+lib/
+share/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary audio files (keep dataset folders, but ignore root temp audios)
+temp_predict.wav
+temp_tts.wav
+test_tts_drive.wav
+*.wav.tmp
+
+# Streamlit config/runtime (optional, can be kept)
+.streamlit/runtime/
